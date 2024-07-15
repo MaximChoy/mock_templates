@@ -1,14 +1,184 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+
+        {
+            "id": "1",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title1",
+            "description": "Description",
+            "price": 100,
+            "cost": 150,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "2",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 250,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "3",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title3",
+            "description": "Description",
+            "price": 100,
+            "cost": 350,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "4",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 50,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "5",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 550,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "6",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 250,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "7",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 750,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "8",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 1150,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "9",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 123450,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        },
+        {
+            "id": "10",
+            "createdDate": "2021-09-21T15:00:00",
+            "userId": "1",
+            "title": "Title",
+            "description": "Description",
+            "price": 100,
+            "cost": 50,
+            "photoUrls": [
+                "https://i.pinimg.com/736x/b9/c4/7e/b9c47ef70bff06613d397abfce02c6e7.jpg",
+                "https://preview.redd.it/klho2y2vh1nb1.jpg?width=640&crop=smart&auto=webp&s=d07453c242edcab51ef0f70137f90138cdd96e18"
+            ],
+            "isDeleted": false
+    
+    ,
+            "isArchived": false,
+            "barcode": "barcode",
+            "onStock": 10,
+            "stockId": "1"
+        }
+    ]
